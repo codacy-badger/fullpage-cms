@@ -4,9 +4,14 @@ var apos = require('apostrophe')({
   shortName: 'fullpage-cms',
   baseUrl: process.env.BASE_URL,
   modules: {
+<<<<<<< HEAD
 
     // All Important Stuff!
     // Custom Image size
+=======
+    // Custom Custom Image Size Example
+    /*
+>>>>>>> master
     'apostrophe-attachments': {
       addImageSizes: [{
         name: 'side',
@@ -14,7 +19,12 @@ var apos = require('apostrophe')({
         height: 600
       }]
     },
-    // Style Modules
+    */
+    // Minify Assets with prod. env
+    'apostrophe-assets': {
+      minify: (process.env.ENV === 'prod')
+    },
+    // Custom Modules
     'apostrophe-video-widgets': {},
     'card-widgets': {},
     'carousels': {},
