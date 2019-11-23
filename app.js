@@ -4,14 +4,8 @@ var apos = require('apostrophe')({
   shortName: 'fullpage-cms',
   baseUrl: process.env.BASE_URL,
   modules: {
-<<<<<<< HEAD
-
-    // All Important Stuff!
-    // Custom Image size
-=======
     // Custom Custom Image Size Example
     /*
->>>>>>> master
     'apostrophe-attachments': {
       addImageSizes: [{
         name: 'side',
