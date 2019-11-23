@@ -14,10 +14,6 @@ var apos = require('apostrophe')({
       }]
     },
     */
-    // Minify Assets with prod. env
-    'apostrophe-assets': {
-      minify: (process.env.ENV === 'prod')
-    },
     // Custom Modules
     'apostrophe-video-widgets': {},
     'card-widgets': {},
