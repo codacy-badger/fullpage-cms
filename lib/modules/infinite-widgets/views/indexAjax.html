@@ -1,0 +1,17 @@
+<div data-apos-ajax-append>
+  {% for name in data.widget.posts %}
+    {% set image = apos.images.first(name._image) %}
+    <div class="card z-depth-0" style="
+        {%- if piece.backColor-%}
+          background-color:{{ piece.backColor }}
+        {% endif %}
+      ">
+      <div class="card-image">
+        <img src="{{ apos.attachments.url(image, { size: 'one-sixth' }) }}" />
+      </div>
+      <div class="card-content">
+      {{ name.name }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

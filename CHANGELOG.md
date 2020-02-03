@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Better image rendering with srcset
 - Integrate apostrophe-i18n Module for multilingual support
 - Infinite scroll module with Ajax
+- Alternative text-widget layout for mobile without more button
 
 ## [0.9.0 ] - 2020-01-02
 
